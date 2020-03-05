@@ -75,7 +75,7 @@ nav [class*="col-"]{
 }
 /* *********JUMBO************ */
 #jumbotron{
-  padding: 100px 0;
+  padding: 140px 0;
   background: #0248ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
@@ -274,7 +274,115 @@ nav [class*="col-"]{
   font-size: 20px;
   margin: 16px 0 64px;
 }
+.caro{
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+label {
+	background: #444;
+	color: #fff;
+	transition: transform 400ms ease-out;
+	display: inline-block;
+  min-height: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	line-height: ;
+}
 
+#heartsa{
+  right: -750px;
+}
+#spadesa{
+  right: -1500px;
+}
+#diamondsa{
+  right: -2250px;
+}
+.forma {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	white-space: nowrap;
+}
+.inpu {
+	position: absolute;
+}
+
+
+
+input:focus ~ .keys {
+	opacity: 0.8;
+}
+
+input:nth-of-type(1):checked ~ label:nth-of-type(1),
+input:nth-of-type(2):checked ~ label:nth-of-type(2),
+input:nth-of-type(3):checked ~ label:nth-of-type(3),
+input:nth-of-type(4):checked ~ label:nth-of-type(4){
+   z-index: 0;
+}
+
+input:nth-of-type(1):checked ~ label {
+	transform: translate3d(0, 0, 0);
+}
+
+input:nth-of-type(2):checked ~ label {
+	transform: translate3d(-100%, 0, 0);
+}
+
+input:nth-of-type(3):checked ~ label {
+	transform: translate3d(-200%, 0, 0);
+}
+
+input:nth-of-type(4):checked ~ label {
+	transform: translate3d(-300%, 0, 0);
+}
+
+label {
+	background: #444;
+	background-size: cover;
+	font-size: 3rem;
+}
+
+label[for="diamonds"],
+label[for="hearts"] {
+	background: #cc0000;
+}
+
+label:before,
+label:after {
+	color: white;
+	display: block;
+	background: rgba(255,255,255,0.2);
+	position: absolute;
+	padding: 1rem;
+	font-size: 3rem;
+	height: 10rem;
+	vertical-align: middle;
+	line-height: 10rem;
+	top: 50%;
+	transform: translate3d(0, -50%, 0);
+	cursor: pointer;
+}
+
+label:before {
+	content: "\276D";
+	right: 100%;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+label:after {
+	content: "\276C";
+	left: 100%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
 /* *****************Thefeature section********************** */
 #features{
   padding: 120px 0;
