@@ -229,7 +229,7 @@ nav [class*="col-"]{
 #Depandscale button{
   border: none;
   border-left: 1px solid rgba(0,0,0,0.2);
-  line-height: 3;
+  line-height: 2;
   background-color: white;
 }
 
