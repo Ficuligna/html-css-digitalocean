@@ -24,7 +24,7 @@
 }
 .menunav{
   border: none;
-  background-color: white;
+  background-color: #f8f8f8;
   padding: 0;
 }
 .menunav:focus .megamenu{
@@ -261,7 +261,20 @@ nav [class*="col-"]{
 /* *************carousel**************** */
 #carousel{
   background-color: #f3f5f9;
+  padding: 120px 0;
 }
+.titlecarous{
+  text-align: center;
+}
+.titlecarous h2{
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+.titlecarous p{
+  font-size: 20px;
+  margin: 16px 0 64px;
+}
+
 /* *****************Thefeature section********************** */
 #features{
   padding: 120px 0;
@@ -335,8 +348,13 @@ nav [class*="col-"]{
 
 #lovesection{
   background-color: #f3f5f9;
+  padding: 120px 0;
 }
-
+.titlelov h2{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 64px;
+}
 
 /* ***************Get Start***************** */
 #Getstart{
