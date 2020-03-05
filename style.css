@@ -1,0 +1,114 @@
+.megamenu .Featureprod>.row>*{
+  float: left;
+}
+.immagiprod{
+  width: 45px;
+}
+.megamenu .Featureprod>.row>* h3{
+  margin: 0;
+}
+.megamenu{
+  display: none;
+}
+.art img{
+  width: 70px;
+}
+nav>.container>.row>*>ul>li, .righttopnav>.row>ul, .righttopnav>.row>button, .righttopnav>.row>ul>li{
+  float: left;
+}
+/* *********JUMBO************ */
+#jumbotron{
+  background: #0248ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+.Rightjumbo{
+  background-color: white;
+}
+
+/* ************PARTNERS************* */
+#partners{
+  background-color: #f3f5f9;
+  padding: 64px 0;
+}
+.partnrs{
+  margin: 16px 0;
+}
+@media screen and (min-width:0px){
+  .partner img{
+    max-height: 150px;
+    max-width: 100%;
+  }
+
+}
+
+
+@media screen and (min-width:992px){
+  .partnrs>.row>div:nth-child(1) img{
+    margin-top: 5px;
+  }
+
+  .partnrs>.row>div:nth-child(4) img{
+    margin-top: 7px;
+  }
+  .partnrs>.row>div:nth-child(5) img{
+    margin-top: 3px;
+  }
+
+  .partnrs>.row>div:last-child img{
+    margin-top: 24px;
+    max-width: 100px;
+
+  }
+  .partner img{
+    max-height: 78px;
+    max-width: 100%;
+  }
+
+}
+@media screen and (min-width:1200px){
+  .partnrs>.row>div:nth-child(4) img{
+    margin-top: 0px;
+  }
+}
+
+
+
+
+/* *************carousel**************** */
+#carousel{
+  background-color: #f3f5f9;
+}
+
+/**************Tables*********************/
+
+#tables{
+  background: #031b4e url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ***************Love Section***************** */
+
+#lovesection{
+  background-color: #f3f5f9;
+}
+
+
+/* ***************Get Start***************** */
+#Getstart{
+  background: #0248ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  background-position: -150px bottom;
+  background-repeat: no-repeat;
+}
+
+/* ************Footer********** */
+footer{
+  background-color: #010e28;
+  color: hsla(0,0%,100%,.5);
+  font-size: 14px;
+  padding-bottom: 96px;
+  padding-top: 96px;
+}
