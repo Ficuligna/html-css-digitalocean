@@ -493,7 +493,111 @@ label:after {
   text-align: center;
   margin-bottom: 64px;
 }
+#lovesection label {
+	background: #444;
+	color: #fff;
+	transition: transform 400ms ease-out;
+	display: inline-block;
+  min-height: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
 
+}
+
+#lovesection #hear{
+  right: -100%;
+}
+#lovesection #spad{
+
+  right: -200%;
+}
+#lovesection #diamon{
+  right: -300%;
+}
+#lovesection .forma {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	white-space: nowrap;
+}
+#lovesection .inpu {
+	position: absolute;
+}
+
+
+
+#lovesection input:focus ~ .keys {
+	opacity: 0.8;
+}
+
+#lovesection input:nth-of-type(1):checked ~ label:nth-of-type(1),
+#lovesection input:nth-of-type(2):checked ~ label:nth-of-type(2),
+#lovesection input:nth-of-type(3):checked ~ label:nth-of-type(3),
+#lovesection input:nth-of-type(4):checked ~ label:nth-of-type(4){
+   z-index: 0;
+}
+
+#lovesection input:nth-of-type(1):checked ~ label {
+	transform: translate3d(0, 0, 0);
+}
+
+#lovesection input:nth-of-type(2):checked ~ label {
+	transform: translate3d(-100%, 0, 0);
+}
+
+#lovesection input:nth-of-type(3):checked ~ label {
+	transform: translate3d(-200%, 0, 0);
+}
+
+#lovesectioninput:nth-of-type(4):checked ~ label {
+	transform: translate3d(-300%, 0, 0);
+}
+
+#lovesection label {
+	background: #444;
+	background-size: cover;
+	font-size: 3rem;
+}
+
+#lovesection label[for="diamon"],
+#lovesection label[for="hear"] {
+	background: #cc0000;
+}
+
+#lovesection label:before,
+#lovesection label:after {
+	color: white;
+	display: block;
+	background: rgba(255,255,255,0.2);
+	position: absolute;
+	padding: 1rem;
+	font-size: 3rem;
+	height: 10rem;
+	vertical-align: middle;
+	line-height: 10rem;
+	top: 50%;
+	transform: translate3d(0, -50%, 0);
+	cursor: pointer;
+}
+
+#lovesection label:before {
+	content: "\276D";
+	right: 100%;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+#lovesection label:after {
+	content: "\276C";
+	left: 100%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
 /* ***************Get Start***************** */
 #Getstart{
   padding: 64px 0;
