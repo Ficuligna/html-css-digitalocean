@@ -244,6 +244,20 @@ nav [class*="col-"]{
 .menulist{
   position: relative;
 }
+@media screen and (min-width:0px){
+
+  .pagedepandscale{
+
+    text-align: left;
+    position: absolute;
+    top: 150px;
+    left: -10px;
+    width: 100vw;
+    max-width: 1170px;
+    z-index: 100;
+  }
+
+}
 @media screen and (min-width:770px){
 
   .pagedepandscale{
@@ -258,6 +272,7 @@ nav [class*="col-"]{
   }
 
 }
+
 /* *************carousel**************** */
 #carousel{
   background-color: #f3f5f9;
