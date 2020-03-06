@@ -1,6 +1,9 @@
 *{
   font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+.row{
+  margin: 0;
+}
 .megamenu .Featureprod>.row>*{
   float: left;
 }
@@ -41,6 +44,7 @@ nav{
 }
 nav ul{
   padding-top: 5px;
+  padding-left: 0;
   list-style-type: none;
 }
 nav ul li{
@@ -294,9 +298,7 @@ nav [class*="col-"]{
   position: relative;
   overflow: hidden;
 }
-/* #carousel .container .row:nth-child(2) .col-xs-12{
-  padding: 0;
-} */
+
 label {
 	background: #444;
 	color: #fff;
@@ -309,58 +311,17 @@ label {
 	z-index: 1;
 	text-align: center;
 
-}@media screen and (min-width:0px) and (max-width:767px){
- .caro{
-   width: 345px;
-   margin: auto;
- }
-  #heartsa{
-    font-size: 18px;
-    right: -345px;
-  }
-  #spadesa{
-    right: -690px;
-  }
-  #diamondsa{
-    right: -1035px;
-  }
 }
-@media screen and (min-width:768px){
 
-  #heartsa{
-    right: -469.99px;
-  }
-  #spadesa{
-    right: -939.98px;
-  }
-  #diamondsa{
-    right: -1409.97px;
-  }
+#heartsa{
+  right: -100%;
 }
-@media screen and (min-width:992px){
+#spadesa{
 
-  #heartsa{
-    right: -616.66px;
-  }
-  #spadesa{
-    right: -1233.32px;
-  }
-  #diamondsa{
-    right: -1849.98px;
-  }
+  right: -200%;
 }
-@media screen and (min-width:1200px){
-
-  #heartsa{
-    right: -750px;
-  }
-  #spadesa{
-
-    right: -1500px;
-  }
-  #diamondsa{
-    right: -2250px;
-  }
+#diamondsa{
+  right: -300%;
 }
 .forma {
 	position: absolute;
