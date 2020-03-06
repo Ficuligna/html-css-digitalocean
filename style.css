@@ -77,6 +77,14 @@ nav .logo{
 nav [class*="col-"]{
   position: static;
 }
+@media screen and (max-width:767px){
+  .navbar{
+    background-color:#0248ff;
+  }
+  .UnifiedNav-logoSVG{
+    fill: black;
+  }
+}
 /* *********JUMBO************ */
 #jumbotron{
   padding: 140px 0;
