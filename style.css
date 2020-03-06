@@ -279,6 +279,9 @@ nav [class*="col-"]{
   position: relative;
   overflow: hidden;
 }
+/* #carousel .container .row:nth-child(2) .col-xs-12{
+  padding: 0;
+} */
 label {
 	background: #444;
 	color: #fff;
@@ -290,17 +293,59 @@ label {
 	position: absolute;
 	z-index: 1;
 	text-align: center;
-	line-height: ;
-}
 
-#heartsa{
-  right: -750px;
+}@media screen and (min-width:0px){
+ .caro{
+   width: 345px;
+   margin: auto;
+ }
+  #heartsa{
+    font-size: 18px;
+    right: -345px;
+  }
+  #spadesa{
+    right: -690px;
+  }
+  #diamondsa{
+    right: -1035px;
+  }
 }
-#spadesa{
-  right: -1500px;
+@media screen and (min-width:768px){
+
+  #heartsa{
+    right: -469.99px;
+  }
+  #spadesa{
+    right: -939.98px;
+  }
+  #diamondsa{
+    right: -1409.97px;
+  }
 }
-#diamondsa{
-  right: -2250px;
+@media screen and (min-width:992px){
+
+  #heartsa{
+    right: -616.66px;
+  }
+  #spadesa{
+    right: -1233.32px;
+  }
+  #diamondsa{
+    right: -1849.98px;
+  }
+}
+@media screen and (min-width:1200px){
+
+  #heartsa{
+    right: -750px;
+  }
+  #spadesa{
+
+    right: -1500px;
+  }
+  #diamondsa{
+    right: -2250px;
+  }
 }
 .forma {
 	position: absolute;
@@ -413,7 +458,7 @@ label:after {
   padding: 120px 0;
 }
 #tables table{
-  width: 100%;
+  width: 95%;
 }
 #tables tr{
 
@@ -452,6 +497,15 @@ label:after {
   margin: auto;
   max-width: 700px;
 }
+/* #tables .container .row:nth-child(2) [class*="col-"]:first-child{
+  padding-left: 0;
+}
+#tables .container .row:nth-child(2) [class*="col-"]:nth-child(2){
+  padding-right: 0;
+}
+#tables .container .row:nth-child(2) [class*="col-"]:nth-child(2) td:last-child{
+  padding-right: 0;
+} */
 /* ***************Love Section***************** */
 
 #lovesection{
